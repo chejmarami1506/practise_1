@@ -1,0 +1,26 @@
+/*BASE*/
+@import"./base/reset.scss";
+@import"./base/links";
+@import"./base/typografias";
+@import"./base/base";
+
+
+/*LAYOUT*/
+@import "./layout/header";
+@import "./layout/main.index";
+@import "./layout/footer";
+
+
+/*COMPONENTS*/
+
+@import"./components/navbar";
+@import"./components/button";
+@import"./components/images";
+@import"./components/forms";
+
+/*MIXINS*/
+@import"../utilities/mixin";
+
+
+/*MEDIA*/
+@import"./layout/media/media320";
